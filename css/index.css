@@ -3,8 +3,11 @@ margin: 0;
 padding: 0;
 }
 
+body{
+	font-family: 'Lato', ;
+}
+
 #body-container{
-font-family: Montserrat, sans-serif;
 width: 100%;
 
 }
@@ -21,13 +24,14 @@ align-content: center;
 }
 
 .row{
-	margin-right: 0px;
+	margin-right: 0px; 
 	margin-left:0px;
 }
 #nav-content{
 font-size: 18px;
 font-weight: lighter;
 color: white;
+font-family: Montserrat, sans-serif;
 }
 
 #icon{
@@ -44,12 +48,12 @@ color: white;
 }
 #name{
 	font-size: 38px;
-	font-weight: lighter;
+	font-family: Montserrat, sans-serif;
 }
 
 #intro{
-	font-size: 20px;
-	font-weight: lighter;
+	font-size: 21px;
+	font-family: Montserrat, sans-serif;
 }
 
 
@@ -295,14 +299,46 @@ button:hover{
 
 
 
-@media only screen and (min-width: 700px;){
+@media only screen and (min-width: 700px){
 
 #icon{
 	display: none;
 }
 #nav-content {
-	 padding-top:
+	 padding-left:80px;
+	 font-size: 20px;
+	 font-weight: lighter;
 }
+#name{
+	font-size: 65px;
+	font-family: Montserrat, sans-serif;
+}
+
+#form1{
+	padding-left: 200px;
+	font-size: 15px;
+}
+#categories{
+	padding-right: 80px;
+	display: flex;
+	flex-direction:row;
+	color: white;
+}
+.nav-content2{
+	text-decoration: none;
+	color: white;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 0px;
+}
+
+.nav-content2:hover{
+	background-color: white;
+	text-decoration: none;
+
+}
+
+
 
 
 }
